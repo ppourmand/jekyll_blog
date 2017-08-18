@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+{% for page in site.posts %}
+  {% assign content = nil %}
+  {% include post.html %}
+{% endfor %}
