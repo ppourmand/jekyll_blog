@@ -1,0 +1,66 @@
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #333333;
+}
+
+.top-bar {
+	background-color: #3498db;
+	text-align: center;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	font-size: 2.75em; 
+}
+
+.social {
+	font-size: 0.5em;
+	padding-top: 0.5em;
+}
+
+.site {
+  width: 45em;
+  word-wrap: break-word;
+  margin: 0 auto;
+  line-height: 1.3em;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	text-decoration: none;
+	color:#000000; 
+}
+
+a:hover {
+	text-decoration: none;
+	color:blue; 
+}
+
+
+
+.post, .post-header, .post-content {
+  margin: 3rem 0;
+}
+
+
+.post-title {
+  font-size: 2em;
+}
+
+
+.post-title, .post-date {
+  margin-bottom: 0.25em;
+}
+
+.post-date {
+  color: #000000;
+}
+
