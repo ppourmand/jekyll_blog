@@ -2,17 +2,30 @@
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link href="/static/css/markdown.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/page.css" rel="stylesheet" type="text/css" />
+        <link href="/static/css/syntax.css" rel="stylesheet" type="text/css" />
+        <link href="/static/img/favicon.png" rel="icon" type="image/png" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
         <title>{{ page.title }}</title>
         <meta name="author" content="Pasha Pourmand" />
-        <a href="/blog">Blog</a>
-
     </head>
 
     <body>
-        <div class="site">
-          <div class="title">
-            <a href="/">Pasha Pourmand</a>
+        <div class="top-bar">
+          <a href="/">Pasha Pourmand</a>
+          <div class="social">
+            <a href="/blog">Blog</a>
+            &mdash;
+            <a href="/">Resume</a>
+            &mdash;
+            <a href="https://github.com/ppourmand" target="_blank">Github</a>
           </div>
+        </div>
+
+        <div class="site">
           {{ content }}
+        </div>
     </body>
 </html>
