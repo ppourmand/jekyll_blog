@@ -1,0 +1,70 @@
+.markdown {
+  line-height: 1.35;
+}
+
+.markdown p, .markdown pre, .markdown ol, .markdown ul, .markdown dl,
+.markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  margin-bottom: 1em;
+}
+
+.markdown h1, .markdown h2 {
+  margin-bottom: 0.5em;
+}
+
+.markdown h1 {
+  font-size: 1.375em;
+}
+
+.markdown h2 {
+  font-size: 1.25em;
+}
+
+.markdown ol, .markdown ul {
+  margin-left: 2em;
+}
+
+.markdown ol {
+  list-style-type: decimal;
+}
+
+.markdown ul {
+  list-style-type: disc;
+}
+
+.markdown pre, .markdown code {
+  background-color: #eeeeee;
+}
+
+.markdown pre {
+  border-radius: 0.5em;
+  padding: 0.2em 0.5em;
+  overflow: auto;
+}
+
+.markdown code {
+  font-family: 'Menlo', monospace;
+  font-size: 85%;
+  border-radius: 0.25em;
+  padding: 0.1em 0.25em;
+}
+
+.markdown pre code {
+  padding: 0;
+}
+
+.markdown blockquote {
+  border-left: 1em solid #eeeeee;
+  padding-left: 1em;
+}
+
+.markdown em {
+  font-style: italic;
+}
+
+.markdown strong {
+  font-weight: bold;
+}
+
+.markdown img {
+  vertical-align: bottom;
+}
